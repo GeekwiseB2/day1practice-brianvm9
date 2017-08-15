@@ -75,7 +75,7 @@ body {
   }
 }
 
-@media screen and (min-height: 575px){
+@media screen and (min-width: 575px) and (max-width: 768px){
   .header {
     background-color: #0078ff;
   }
