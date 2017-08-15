@@ -1,16 +1,95 @@
-li {
-  list-style-type: none;
-  color: #e40007;
+body {
+  font-size: 24px;
 }
 
-@media screen and (min-width: 300px) {
-  .col-md-3 {
-    background-color: blue;
+.container-fluid {
+}
+.header {
+  height:200px;
+  background-color: #0000ff;
+  border:solid 4px black;
+}
+
+.nav {
+  height: 100px;
+  background-color: #009710;
+  border:solid 2px black;
+}
+
+.content {
+  height: 200px;
+  background-color: #ff0000;
+  border: solid 4px black;
+}
+
+.aside {
+  height: 200px;
+  background-color: #00FFE8;
+  border: solid 4px black;
+  border-left: none;
+
+}
+
+.promo{
+  height: 200px;
+  background-color: #FFAE00;
+}
+#promo1 {
+  border-right: 1px solid #000;
+}
+
+#promo2 {
+  border-right: 1px solid #000;
+}
+
+#promo3{
+  border-right: 1px solid #000;
+}
+.footer {
+  height: 230px;
+  background-color: #000;
+  color: #fff;
+}
+
+/*Media queries start*/
+
+@media/*<--Rule*/ screen/*<--media*/ and (min-width: 768px){
+  .header {
+    background-color: #00ff00;
+  }
+
+  .nav {
+    background-color: #fff000;
+  }
+
+  .content {
+    background-color: #008bff;
+  }
+
+  .aside {
+    background-color: #00ff23;
+  }
+
+  .promo {
+    background-color: #ff5d00;
   }
 }
 
-@media screen and (min-width: 500px) {
-  .col-md-3 {
-    background-color: purple;
+@media screen and (min-height: 575px){
+  .header {
+    background-color: #0078ff;
   }
+
+  .nav {
+    background-color: #5500ff;
+  }
+
+  .content {
+    background-color: #20b156;
+  }
+
+  .aside {
+    background-color: #0f921f;
+  }
+
 }
